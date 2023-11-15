@@ -6,7 +6,7 @@
   "scripts": {
     "dist": "tsc",
     "watch": "tsc -w",
-    "lint": "eslint -c .eslintrc --ext .ts ./src",
+    "lint": "eslint --ext .ts ./src",
     "start": "npm run dist && electron .",
     "build": "npm run dist && electron-builder"
   },
@@ -16,8 +16,10 @@
     "electron-store": "^8.1.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
     "electron": "^27.1.0",
     "electron-builder": "^24.6.4",
+    "eslint": "^8.53.0",
     "typescript": "^5.2.2"
   },
   "build": {
