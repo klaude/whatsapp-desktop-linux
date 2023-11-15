@@ -1,7 +1,7 @@
 {
-  "name": "whatsapp-desktop-linux",
-  "version": "1.2.3-2",
-  "description": "WhatsApp Desktop for Linux (unofficial)",
+  "name": "whatsapp-desktop-linux-klaude",
+  "version": "1.3.0",
+  "description": "WhatsApp Desktop for Linux (unofficial) (fork)",
   "main": "dist/index.js",
   "scripts": {
     "dist": "tsc",
@@ -23,7 +23,7 @@
     "typescript": "^5.2.2"
   },
   "build": {
-    "appId": "io.github.mimbrero.WhatsAppDesktop",
+    "appId": "com.github.klaude.WhatsAppDesktop",
     "directories": {
       "output": "./build"
     },
